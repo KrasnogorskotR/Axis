@@ -2,13 +2,13 @@
 
 ## Top channeltop -  ##
 
-## `$ $ channeltop words | $ channeltop messages | $ channeltop msgs [channel] ` ##
+## `$channeltop words | $channeltop messages | $channeltop msgs [channel] ` ##
 ### Functionality ###
 Get this servers's favorite words.
 ### Parameters ###
 * channel - IChannel (Optional)
 
-## `$ channeltop commands | $ channeltop cmds [channel] ` ##
+## `$channeltop commands | $channeltop cmds [channel] ` ##
 ### Functionality ###
 Get this servers's favorite commands.
 ### Parameters ###
@@ -16,196 +16,196 @@ Get this servers's favorite commands.
 
 # Public -  #
 
-## `info ` ##
+## `$info ` ##
 
-## `inviteme ` ##
+## `$inviteme ` ##
 ### Functionality ###
 Returns the OAuth2 Invite URL of the bot
 
-## `stats ` ##
+## `$stats ` ##
 ### Functionality ###
 Returns Axis stats.
 
-## `ping ` ##
+## `$ping ` ##
 ### Functionality ###
 Pong!
 
-## `guildinfo ` ##
+## `$guildinfo ` ##
 
-## `lookup <ip> ` ##
+## `$lookup <ip> ` ##
 ### Parameters ###
 * ip - String
 
 # Fun -  #
 
-## `cat ` ##
+## `$cat ` ##
 
-## `dog ` ##
+## `$dog ` ##
 
-## `lmgtfy [ffs] ` ##
+## `$lmgtfy [ffs] ` ##
 ### Parameters ###
 * ffs - String (Optional)
 
-## `magic [name] ` ##
+## `$magic [name] ` ##
 ### Parameters ###
 * name - String (Optional)
 
-## `steps ` ##
+## `$steps ` ##
 
-## `love <userone> <usertwo> ` ##
+## `$love <userone> <usertwo> ` ##
 ### Parameters ###
 * userone - IUser
 * usertwo - IUser
 
-## `love <nameone> <nametwo> ` ##
+## `$love <nameone> <nametwo> ` ##
 ### Parameters ###
 * nameone - String
 * nametwo - String
 
-## `trump ` ##
+## `$trump ` ##
 
-## `yodify [query] ` ##
+## `$yodify [query] ` ##
 ### Parameters ###
 * query - String (Optional)
 
-## `urban [query] ` ##
+## `$urban [query] ` ##
 ### Parameters ###
 * query - String (Optional)
 
-## `define <word> ` ##
+## `$define <word> ` ##
 ### Parameters ###
 * word - String
 
-## `catfact ` ##
+## `$catfact ` ##
 
-## `revav [usr] ` ##
+## `$revav [usr] ` ##
 ### Parameters ###
 * usr - IUser (Optional)
 
-## `wiki [query] ` ##
+## `$wiki [query] ` ##
 ### Parameters ###
 * query - String (Optional)
 
-## `mcping [query] ` ##
+## `$mcping [query] ` ##
 ### Parameters ###
 * query - String (Optional)
 
-## `doge <phrase> ` ##
+## `$doge <phrase> ` ##
 ### Functionality ###
 Generate a doge!
 ### Parameters ###
 * phrase - String
 
-## `char <str> ` ##
+## `$char <str> ` ##
 ### Functionality ###
 Get the char info.
 ### Parameters ###
 * str - String
 
-## `pat [user] ` ##
+## `$pat [user] ` ##
 ### Functionality ###
 Pat someone.
 ### Parameters ###
 * user - IUser (Optional)
 
-## `pats [user] ` ##
+## `$pats [user] ` ##
 ### Functionality ###
 Find out how many times someone has been pat.
 ### Parameters ###
 * user - IUser (Optional)
 
-## `8 <randomText> ` ##
+## `$8 <randomText> ` ##
 ### Parameters ###
 * randomText - String
 
-## `reg <input> ` ##
+## `$reg <input> ` ##
 ### Parameters ###
 * input - String
 
 ## Fun pb -  ##
 
-## `pb call <id> ` ##
+## `$pb call <id> ` ##
 ### Parameters ###
 * id - UInt64
 
-## `$ pb disconnect | $ pb dc ` ##
+## `$pb disconnect | $pb dc ` ##
 
 # Gambling -  #
 
-## `flip [count] ` ##
+## `$flip [count] ` ##
 ### Parameters ###
 * count - Int32 (Optional)
 
-## `betflip <amount> <guess> ` ##
+## `$betflip <amount> <guess> ` ##
 ### Parameters ###
 * amount - Int32
 * guess - String
 
-## `roll ` ##
+## `$roll ` ##
 
-## `cash [user] ` ##
+## `$cash [user] ` ##
 ### Parameters ###
 * user - IUser (Optional)
 
-## `betroll <amount> ` ##
+## `$betroll <amount> ` ##
 ### Parameters ###
 * amount - Int64
 
-## `leaderboard ` ##
+## `$leaderboard ` ##
 
-## `profile ` ##
+## `$profile ` ##
 
 # Games -  #
 
-## `hangmanlist ` ##
+## `$hangmanlist ` ##
 
-## `hangman [type] ` ##
+## `$hangman [type] ` ##
 ### Parameters ###
 * type - HangmanTermType (Optional)
 
-## `leet <level> [text] ` ##
+## `$leet <level> [text] ` ##
 ### Parameters ###
 * level - Int32
 * text - String (Optional)
 
-## `rps <input> ` ##
+## `$rps <input> ` ##
 ### Parameters ###
 * input - String
 
-## `linux <guhnoo> <loonix> ` ##
+## `$linux <guhnoo> <loonix> ` ##
 ### Parameters ###
 * guhnoo - String
 * loonix - String
 
 # Help -  #
 
-## `help ` ##
+## `$help ` ##
 ### Functionality ###
 What...
 
-## `help <command> ` ##
+## `$help <command> ` ##
 ### Parameters ###
 * command - String
 
 # Jokes -  #
 
-## `yomama ` ##
+## `$yomama ` ##
 
-## `randjoke ` ##
+## `$randjoke ` ##
 
 # Search -  #
 
-## `gif <keywords> ` ##
+## `$gif <keywords> ` ##
 ### Functionality ###
 Search for a gif with the provided keywords.
 ### Parameters ###
 * keywords - String
 
-## `weather <query> ` ##
+## `$weather <query> ` ##
 ### Parameters ###
 * query - String
 
-## `$ stackexchange | $ se <keywords> ` ##
+## `$stackexchange | $se <keywords> ` ##
 ### Functionality ###
 Search for tags on a stackexchange site.
 ### Parameters ###
@@ -213,146 +213,146 @@ Search for tags on a stackexchange site.
 
 # Translate -  #
 
-## `translate <langs> [text] ` ##
+## `$translate <langs> [text] ` ##
 ### Parameters ###
 * langs - String
 * text - String (Optional)
 
-## `autotranslang [langs] ` ##
+## `$autotranslang [langs] ` ##
 ### Parameters ###
 * langs - String (Optional)
 
-## `translangs ` ##
+## `$translangs ` ##
 
 # Utility -  #
 
-## `user [userM] ` ##
+## `$user [userM] ` ##
 ### Parameters ###
 * userM - IGuildUser (Optional)
 
-## `google <search> ` ##
+## `$google <search> ` ##
 ### Parameters ###
 * search - String
 
-## `color <color> ` ##
+## `$color <color> ` ##
 ### Parameters ###
 * color - String
 
-## `hastebin <str> ` ##
+## `$hastebin <str> ` ##
 ### Parameters ###
 * str - String
 
-## `ign <gameName> ` ##
+## `$ign <gameName> ` ##
 ### Parameters ###
 * gameName - String
 
-## `togethertube ` ##
+## `$togethertube ` ##
 
-## `myperms ` ##
+## `$myperms ` ##
 
-## `roles <target> [page] ` ##
+## `$roles <target> [page] ` ##
 ### Parameters ###
 * target - IGuildUser
 * page - Int32 (Optional)
 
-## `roles [page] ` ##
+## `$roles [page] ` ##
 ### Parameters ###
 * page - Int32 (Optional)
 
-## `emojis <emojis> ` ##
+## `$emojis <emojis> ` ##
 ### Parameters ###
 * emojis - String
 
-## `listguilds [page] ` ##
+## `$listguilds [page] ` ##
 ### Parameters ###
 * page - Int32 (Optional)
 
 # Eval -  #
 
-## `eval <toExecute> ` ##
+## `$eval <toExecute> ` ##
 ### Parameters ###
 * toExecute - String
 
 # Music -  #
 
-## `play <path> ` ##
+## `$play <path> ` ##
 ### Parameters ###
 * path - String
 
-## `mdc ` ##
+## `$mdc ` ##
 
 # Owner -  #
 
-## `shutdown ` ##
+## `$shutdown ` ##
 
-## `restart ` ##
+## `$restart ` ##
 
 ## Owner set -  ##
 
-## `set nickname [newNickname] ` ##
+## `$set nickname [newNickname] ` ##
 ### Parameters ###
 * newNickname - String (Optional)
 
 ## Owner blacklist -  ##
 
-## `blacklist add <userMen> ` ##
+## `$blacklist add <userMen> ` ##
 ### Parameters ###
 * userMen - IUser
 
-## `blacklist remove <userMen> ` ##
+## `$blacklist remove <userMen> ` ##
 ### Parameters ###
 * userMen - IUser
 
-## `blacklist list ` ##
+## `$blacklist list ` ##
 
 # OwnerWIP -  #
 
-## `test ` ##
+## `$test ` ##
 
-## `gendocs ` ##
+## `$gendocs ` ##
 ### Functionality ###
 Generates these docs
 
-## `setcoin <amount> [user] ` ##
+## `$setcoin <amount> [user] ` ##
 ### Parameters ###
 * amount - Int64
 * user - IUser (Optional)
 
-## `send <where> [msg] ` ##
+## `$send <where> [msg] ` ##
 ### Parameters ###
 * where - String
 * msg - String (Optional)
 
-## `announce <message> ` ##
+## `$announce <message> ` ##
 ### Parameters ###
 * message - String
 
-## `delwarn <User> <Id> ` ##
+## `$delwarn <User> <Id> ` ##
 ### Parameters ###
 * User - IUser
 * Id - Int32
 
-## `warn <User> <Reason> ` ##
+## `$warn <User> <Reason> ` ##
 ### Parameters ###
 * User - IUser
 * Reason - String
 
-## `listwarn <User> ` ##
+## `$listwarn <User> ` ##
 ### Parameters ###
 * User - IUser
 
-## `resetperms ` ##
+## `$resetperms ` ##
 
 # Custom -  #
 
-## `create <name> [description] ` ##
+## `$create <name> [description] ` ##
 ### Functionality ###
 Create a new custom command.
 ### Parameters ###
 * name - String
 * description - String (Optional)
 
-## `$ commands | $ cmds [page] ` ##
+## `$commands | $cmds [page] ` ##
 ### Functionality ###
 Get a list of all custom commands on this server.
 ### Parameters ###
@@ -360,14 +360,14 @@ Get a list of all custom commands on this server.
 
 # Guild -  #
 
-## `ban <user> [msg] ` ##
+## `$ban <user> [msg] ` ##
 ### Functionality ###
 Bans the user from the guild.
 ### Parameters ###
 * user - IGuildUser
 * msg - String (Optional)
 
-## `kick <userM> ` ##
+## `$kick <userM> ` ##
 ### Functionality ###
 Kicks the user from the guild.
 ### Parameters ###
@@ -375,19 +375,19 @@ Kicks the user from the guild.
 
 # Guild -  #
 
-## `setprefix <prefix> ` ##
+## `$setprefix <prefix> ` ##
 ### Functionality ###
 Change the prefix for this guild.
 ### Parameters ###
 * prefix - String
 
-## `setmodlog [channel] ` ##
+## `$setmodlog [channel] ` ##
 ### Functionality ###
 Set the channel moderator actions are logged to.
 ### Parameters ###
 * channel - ITextChannel (Optional)
 
-## `setstarboard [channel] ` ##
+## `$setstarboard [channel] ` ##
 ### Functionality ###
 Set the channel starred messages are logged to.
 ### Parameters ###
