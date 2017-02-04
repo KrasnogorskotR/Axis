@@ -2,13 +2,13 @@
 
 ## Top channeltop -  ##
 
-## `channeltop words | channeltop messages | channeltop msgs [channel] ` ##
+## `$ $ channeltop words | $ channeltop messages | $ channeltop msgs [channel] ` ##
 ### Functionality ###
 Get this servers's favorite words.
 ### Parameters ###
 * channel - IChannel (Optional)
 
-## `channeltop commands | channeltop cmds [channel] ` ##
+## `$ channeltop commands | $ channeltop cmds [channel] ` ##
 ### Functionality ###
 Get this servers's favorite commands.
 ### Parameters ###
@@ -128,7 +128,7 @@ Find out how many times someone has been pat.
 ### Parameters ###
 * id - UInt64
 
-## `pb disconnect | pb dc ` ##
+## `$ pb disconnect | $ pb dc ` ##
 
 # Gambling -  #
 
@@ -205,7 +205,7 @@ Search for a gif with the provided keywords.
 ### Parameters ###
 * query - String
 
-## `stackexchange | se <keywords> ` ##
+## `$ stackexchange | $ se <keywords> ` ##
 ### Functionality ###
 Search for tags on a stackexchange site.
 ### Parameters ###
@@ -352,7 +352,7 @@ Create a new custom command.
 * name - String
 * description - String (Optional)
 
-## `commands | cmds [page] ` ##
+## `$ commands | $ cmds [page] ` ##
 ### Functionality ###
 Get a list of all custom commands on this server.
 ### Parameters ###
