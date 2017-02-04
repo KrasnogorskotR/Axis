@@ -6,19 +6,17 @@
 ### Functionality ###
 Get this servers's favorite words.
 ### Parameters ###
-* channel -  (Optional)
+* channel - IChannel (Optional)
 
 ## `channeltop commands | channeltop cmds [channel] ` ##
 ### Functionality ###
 Get this servers's favorite commands.
 ### Parameters ###
-* channel -  (Optional)
+* channel - IChannel (Optional)
 
 # Public -  #
 
 ## `info ` ##
-### Functionality ###
-
 
 ## `inviteme ` ##
 ### Functionality ###
@@ -33,217 +31,151 @@ Returns Axis stats.
 Pong!
 
 ## `guildinfo ` ##
-### Functionality ###
-
 
 ## `lookup <ip> ` ##
-### Functionality ###
-
 ### Parameters ###
-* ip - 
+* ip - String
 
 # Fun -  #
 
 ## `cat ` ##
-### Functionality ###
-
 
 ## `dog ` ##
-### Functionality ###
-
 
 ## `lmgtfy [ffs] ` ##
-### Functionality ###
-
 ### Parameters ###
-* ffs -  (Optional)
+* ffs - String (Optional)
 
 ## `magic [name] ` ##
-### Functionality ###
-
 ### Parameters ###
-* name -  (Optional)
+* name - String (Optional)
 
 ## `steps ` ##
-### Functionality ###
-
 
 ## `love <userone> <usertwo> ` ##
-### Functionality ###
-
 ### Parameters ###
-* userone - 
-* usertwo - 
+* userone - IUser
+* usertwo - IUser
 
 ## `love <nameone> <nametwo> ` ##
-### Functionality ###
-
 ### Parameters ###
-* nameone - 
-* nametwo - 
+* nameone - String
+* nametwo - String
 
 ## `trump ` ##
-### Functionality ###
-
 
 ## `yodify [query] ` ##
-### Functionality ###
-
 ### Parameters ###
-* query -  (Optional)
+* query - String (Optional)
 
 ## `urban [query] ` ##
-### Functionality ###
-
 ### Parameters ###
-* query -  (Optional)
+* query - String (Optional)
 
 ## `define <word> ` ##
-### Functionality ###
-
 ### Parameters ###
-* word - 
+* word - String
 
 ## `catfact ` ##
-### Functionality ###
-
 
 ## `revav [usr] ` ##
-### Functionality ###
-
 ### Parameters ###
-* usr -  (Optional)
+* usr - IUser (Optional)
 
 ## `wiki [query] ` ##
-### Functionality ###
-
 ### Parameters ###
-* query -  (Optional)
+* query - String (Optional)
 
 ## `mcping [query] ` ##
-### Functionality ###
-
 ### Parameters ###
-* query -  (Optional)
+* query - String (Optional)
 
 ## `doge <phrase> ` ##
 ### Functionality ###
 Generate a doge!
 ### Parameters ###
-* phrase - 
+* phrase - String
 
 ## `char <str> ` ##
 ### Functionality ###
 Get the char info.
 ### Parameters ###
-* str - 
+* str - String
 
 ## `pat [user] ` ##
 ### Functionality ###
 Pat someone.
 ### Parameters ###
-* user -  (Optional)
+* user - IUser (Optional)
 
 ## `pats [user] ` ##
 ### Functionality ###
 Find out how many times someone has been pat.
 ### Parameters ###
-* user -  (Optional)
+* user - IUser (Optional)
 
 ## `8 <randomText> ` ##
-### Functionality ###
-
 ### Parameters ###
-* randomText - 
+* randomText - String
 
 ## `reg <input> ` ##
-### Functionality ###
-
 ### Parameters ###
-* input - 
+* input - String
 
 ## Fun pb -  ##
 
 ## `pb call <id> ` ##
-### Functionality ###
-
 ### Parameters ###
-* id - 
+* id - UInt64
 
 ## `pb disconnect | pb dc ` ##
-### Functionality ###
-
 
 # Gambling -  #
 
 ## `flip [count] ` ##
-### Functionality ###
-
 ### Parameters ###
-* count -  (Optional)
+* count - Int32 (Optional)
 
 ## `betflip <amount> <guess> ` ##
-### Functionality ###
-
 ### Parameters ###
-* amount - 
-* guess - 
+* amount - Int32
+* guess - String
 
 ## `roll ` ##
-### Functionality ###
-
 
 ## `cash [user] ` ##
-### Functionality ###
-
 ### Parameters ###
-* user -  (Optional)
+* user - IUser (Optional)
 
 ## `betroll <amount> ` ##
-### Functionality ###
-
 ### Parameters ###
-* amount - 
+* amount - Int64
 
 ## `leaderboard ` ##
-### Functionality ###
-
 
 ## `profile ` ##
-### Functionality ###
-
 
 # Games -  #
 
 ## `hangmanlist ` ##
-### Functionality ###
-
 
 ## `hangman [type] ` ##
-### Functionality ###
-
 ### Parameters ###
-* type -  (Optional)
+* type - HangmanTermType (Optional)
 
 ## `leet <level> [text] ` ##
-### Functionality ###
-
 ### Parameters ###
-* level - 
-* text -  (Optional)
+* level - Int32
+* text - String (Optional)
 
 ## `rps <input> ` ##
-### Functionality ###
-
 ### Parameters ###
-* input - 
+* input - String
 
 ## `linux <guhnoo> <loonix> ` ##
-### Functionality ###
-
 ### Parameters ###
-* guhnoo - 
-* loonix - 
+* guhnoo - String
+* loonix - String
 
 # Help -  #
 
@@ -252,20 +184,14 @@ Find out how many times someone has been pat.
 What...
 
 ## `help <command> ` ##
-### Functionality ###
-
 ### Parameters ###
-* command - 
+* command - String
 
 # Jokes -  #
 
 ## `yomama ` ##
-### Functionality ###
-
 
 ## `randjoke ` ##
-### Functionality ###
-
 
 # Search -  #
 
@@ -273,213 +199,149 @@ What...
 ### Functionality ###
 Search for a gif with the provided keywords.
 ### Parameters ###
-* keywords - 
+* keywords - String
 
 ## `weather <query> ` ##
-### Functionality ###
-
 ### Parameters ###
-* query - 
+* query - String
 
 ## `stackexchange | se <keywords> ` ##
 ### Functionality ###
 Search for tags on a stackexchange site.
 ### Parameters ###
-* keywords - 
+* keywords - String
 
 # Translate -  #
 
 ## `translate <langs> [text] ` ##
-### Functionality ###
-
 ### Parameters ###
-* langs - 
-* text -  (Optional)
+* langs - String
+* text - String (Optional)
 
 ## `autotranslang [langs] ` ##
-### Functionality ###
-
 ### Parameters ###
-* langs -  (Optional)
+* langs - String (Optional)
 
 ## `translangs ` ##
-### Functionality ###
-
 
 # Utility -  #
 
 ## `user [userM] ` ##
-### Functionality ###
-
 ### Parameters ###
-* userM -  (Optional)
+* userM - IGuildUser (Optional)
 
 ## `google <search> ` ##
-### Functionality ###
-
 ### Parameters ###
-* search - 
+* search - String
 
 ## `color <color> ` ##
-### Functionality ###
-
 ### Parameters ###
-* color - 
+* color - String
 
 ## `hastebin <str> ` ##
-### Functionality ###
-
 ### Parameters ###
-* str - 
+* str - String
 
 ## `ign <gameName> ` ##
-### Functionality ###
-
 ### Parameters ###
-* gameName - 
+* gameName - String
 
 ## `togethertube ` ##
-### Functionality ###
-
 
 ## `myperms ` ##
-### Functionality ###
-
 
 ## `roles <target> [page] ` ##
-### Functionality ###
-
 ### Parameters ###
-* target - 
-* page -  (Optional)
+* target - IGuildUser
+* page - Int32 (Optional)
 
 ## `roles [page] ` ##
-### Functionality ###
-
 ### Parameters ###
-* page -  (Optional)
+* page - Int32 (Optional)
 
 ## `emojis <emojis> ` ##
-### Functionality ###
-
 ### Parameters ###
-* emojis - 
+* emojis - String
 
 ## `listguilds [page] ` ##
-### Functionality ###
-
 ### Parameters ###
-* page -  (Optional)
+* page - Int32 (Optional)
 
 # Eval -  #
 
 ## `eval <toExecute> ` ##
-### Functionality ###
-
 ### Parameters ###
-* toExecute - 
+* toExecute - String
 
 # Music -  #
 
 ## `play <path> ` ##
-### Functionality ###
-
 ### Parameters ###
-* path - 
+* path - String
 
 ## `mdc ` ##
-### Functionality ###
-
 
 # Owner -  #
 
 ## `shutdown ` ##
-### Functionality ###
-
 
 ## `restart ` ##
-### Functionality ###
-
 
 ## Owner set -  ##
 
 ## `set nickname [newNickname] ` ##
-### Functionality ###
-
 ### Parameters ###
-* newNickname -  (Optional)
+* newNickname - String (Optional)
 
 ## Owner blacklist -  ##
 
 ## `blacklist add <userMen> ` ##
-### Functionality ###
-
 ### Parameters ###
-* userMen - 
+* userMen - IUser
 
 ## `blacklist remove <userMen> ` ##
-### Functionality ###
-
 ### Parameters ###
-* userMen - 
+* userMen - IUser
 
 ## `blacklist list ` ##
-### Functionality ###
-
 
 # OwnerWIP -  #
 
 ## `test ` ##
-### Functionality ###
-
 
 ## `gendocs ` ##
 ### Functionality ###
 Generates these docs
 
 ## `setcoin <amount> [user] ` ##
-### Functionality ###
-
 ### Parameters ###
-* amount - 
-* user -  (Optional)
+* amount - Int64
+* user - IUser (Optional)
 
 ## `send <where> [msg] ` ##
-### Functionality ###
-
 ### Parameters ###
-* where - 
-* msg -  (Optional)
+* where - String
+* msg - String (Optional)
 
 ## `announce <message> ` ##
-### Functionality ###
-
 ### Parameters ###
-* message - 
+* message - String
 
 ## `delwarn <User> <Id> ` ##
-### Functionality ###
-
 ### Parameters ###
-* User - 
-* Id - 
+* User - IUser
+* Id - Int32
 
 ## `warn <User> <Reason> ` ##
-### Functionality ###
-
 ### Parameters ###
-* User - 
-* Reason - 
+* User - IUser
+* Reason - String
 
 ## `listwarn <User> ` ##
-### Functionality ###
-
 ### Parameters ###
-* User - 
+* User - IUser
 
 ## `resetperms ` ##
-### Functionality ###
-
 
 # Custom -  #
 
@@ -487,14 +349,14 @@ Generates these docs
 ### Functionality ###
 Create a new custom command.
 ### Parameters ###
-* name - 
-* description -  (Optional)
+* name - String
+* description - String (Optional)
 
 ## `commands | cmds [page] ` ##
 ### Functionality ###
 Get a list of all custom commands on this server.
 ### Parameters ###
-* page -  (Optional)
+* page - Int32 (Optional)
 
 # Guild -  #
 
@@ -502,14 +364,14 @@ Get a list of all custom commands on this server.
 ### Functionality ###
 Bans the user from the guild.
 ### Parameters ###
-* user - 
-* msg -  (Optional)
+* user - IGuildUser
+* msg - String (Optional)
 
 ## `kick <userM> ` ##
 ### Functionality ###
 Kicks the user from the guild.
 ### Parameters ###
-* userM - 
+* userM - IUser
 
 # Guild -  #
 
@@ -517,17 +379,17 @@ Kicks the user from the guild.
 ### Functionality ###
 Change the prefix for this guild.
 ### Parameters ###
-* prefix - 
+* prefix - String
 
 ## `setmodlog [channel] ` ##
 ### Functionality ###
 Set the channel moderator actions are logged to.
 ### Parameters ###
-* channel -  (Optional)
+* channel - ITextChannel (Optional)
 
 ## `setstarboard [channel] ` ##
 ### Functionality ###
 Set the channel starred messages are logged to.
 ### Parameters ###
-* channel -  (Optional)
+* channel - ITextChannel (Optional)
 
