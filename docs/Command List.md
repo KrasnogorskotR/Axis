@@ -1,6 +1,6 @@
-# Top -  #
+# Top - Top module #
 
-## Top channeltop -  ##
+## Top channeltop - Channel Top Module ##
 
 ## `$channeltop words | $channeltop messages | $channeltop msgs [channel] ` ##
 ### Functionality ###
@@ -14,9 +14,11 @@ Get this servers's favorite commands.
 ### Parameters ###
 * channel - IChannel (Optional)
 
-# Public -  #
+# Public - Public module #
 
 ## `$info ` ##
+### Functionality ###
+Info about Axis
 
 ## `$inviteme ` ##
 ### Functionality ###
@@ -31,62 +33,87 @@ Returns Axis stats.
 Pong!
 
 ## `$guildinfo ` ##
+### Functionality ###
+Return the guild info
 
 ## `$lookup <ip> ` ##
+### Functionality ###
+Lookup an IP
 ### Parameters ###
 * ip - String
 
-# Fun -  #
+# Fun - Fun module #
 
 ## `$cat ` ##
+### Functionality ###
+Sends a random cat image
 
 ## `$dog ` ##
+### Functionality ###
+Sends a random dog image
 
 ## `$lmgtfy [ffs] ` ##
+### Functionality ###
+http://lmgtfy.com/?q=what+is+lmgtfy
 ### Parameters ###
 * ffs - String (Optional)
 
 ## `$magic [name] ` ##
+### Functionality ###
+Show cards of Magic The Gathering
 ### Parameters ###
 * name - String (Optional)
 
 ## `$steps ` ##
+### Functionality ###
+Returns random WikiHow steps
 
 ## `$love <userone> <usertwo> ` ##
 ### Parameters ###
 * userone - IUser
 * usertwo - IUser
 
-## `$love <nameone> <nametwo> ` ##
-### Parameters ###
-* nameone - String
-* nametwo - String
-
 ## `$trump ` ##
+### Functionality ###
+Sends a random Donald Trump quote
 
 ## `$yodify [query] ` ##
+### Functionality ###
+Yodify a sentence
 ### Parameters ###
 * query - String (Optional)
 
 ## `$urban [query] ` ##
+### Functionality ###
+Return a Urban Dictionary definition about a word
 ### Parameters ###
 * query - String (Optional)
 
 ## `$define <word> ` ##
+### Functionality ###
+Returns the definition of a word
 ### Parameters ###
 * word - String
 
 ## `$catfact ` ##
+### Functionality ###
+Sends a random Cat fact
 
 ## `$revav [usr] ` ##
+### Functionality ###
+Searches for the user avatar on google
 ### Parameters ###
 * usr - IUser (Optional)
 
 ## `$wiki [query] ` ##
+### Functionality ###
+Returns a Wikipedia page based on your query
 ### Parameters ###
 * query - String (Optional)
 
 ## `$mcping [query] ` ##
+### Functionality ###
+Pings a Minecraft server
 ### Parameters ###
 * query - String (Optional)
 
@@ -115,64 +142,96 @@ Find out how many times someone has been pat.
 * user - IUser (Optional)
 
 ## `$8 <randomText> ` ##
+### Functionality ###
+Ask your questions to the magic 8 ball
 ### Parameters ###
 * randomText - String
 
 ## `$reg <input> ` ##
+### Functionality ###
+Transforms your input into emoji
 ### Parameters ###
 * input - String
 
-## Fun pb -  ##
+## Fun pb - PhoneBook module ##
 
 ## `$pb call <id> ` ##
+### Functionality ###
+Call a channel
 ### Parameters ###
 * id - UInt64
 
 ## `$pb disconnect | $pb dc ` ##
+### Functionality ###
+Disconnect from the call
 
-# Gambling -  #
+# Gambling - Gambling module #
 
 ## `$flip [count] ` ##
+### Functionality ###
+Flip a coin
 ### Parameters ###
 * count - Int32 (Optional)
 
 ## `$betflip <amount> <guess> ` ##
+### Functionality ###
+Bet if the coin flip will return heads or tails
 ### Parameters ###
 * amount - Int32
 * guess - String
 
 ## `$roll ` ##
+### Functionality ###
+Roll a dice
 
-## `$cash [user] ` ##
+## `$coins [user] ` ##
+### Functionality ###
+Return your coins
 ### Parameters ###
 * user - IUser (Optional)
 
 ## `$betroll <amount> ` ##
+### Functionality ###
+Bet what number the dice will roll
 ### Parameters ###
 * amount - Int64
 
 ## `$leaderboard ` ##
+### Functionality ###
+Shows the richest people
 
 ## `$profile ` ##
+### Functionality ###
+Shows your profile (Not implemented yet)
 
-# Games -  #
+# Games - Games module #
 
 ## `$hangmanlist ` ##
+### Functionality ###
+Shows all the hangman term types
 
 ## `$hangman [type] ` ##
+### Functionality ###
+Start a hangman game
 ### Parameters ###
 * type - HangmanTermType (Optional)
 
 ## `$leet <level> [text] ` ##
+### Functionality ###
+L337 5P34|< L1|<3 7|-|47
 ### Parameters ###
 * level - Int32
 * text - String (Optional)
 
 ## `$rps <input> ` ##
+### Functionality ###
+Rocket, Paperclip and Scissors
 ### Parameters ###
 * input - String
 
 ## `$linux <guhnoo> <loonix> ` ##
+### Functionality ###
+https://www.youtube.com/watch?v=QlD9UBTcSW4
 ### Parameters ###
 * guhnoo - String
 * loonix - String
@@ -187,13 +246,17 @@ What...
 ### Parameters ###
 * command - String
 
-# Jokes -  #
+# Jokes - Jokes module #
 
 ## `$yomama ` ##
+### Functionality ###
+Retuns a yo mama joke
 
 ## `$randjoke ` ##
+### Functionality ###
+Returns a rand joke
 
-# Search -  #
+# Search - Search module #
 
 ## `$gif <keywords> ` ##
 ### Functionality ###
@@ -202,6 +265,8 @@ Search for a gif with the provided keywords.
 * keywords - String
 
 ## `$weather <query> ` ##
+### Functionality ###
+Weather command
 ### Parameters ###
 * query - String
 
@@ -211,139 +276,195 @@ Search for tags on a stackexchange site.
 ### Parameters ###
 * keywords - String
 
-# Translate -  #
+# Translate - Translate module #
 
 ## `$translate <langs> [text] ` ##
+### Functionality ###
+Translate a sentence
 ### Parameters ###
 * langs - String
 * text - String (Optional)
 
 ## `$autotranslang [langs] ` ##
+### Functionality ###
+Auto translate every message in the channel
 ### Parameters ###
 * langs - String (Optional)
 
 ## `$translangs ` ##
+### Functionality ###
+Returns the possible translation langs
 
-# Utility -  #
+# Utility - Utility module #
 
 ## `$user [userM] ` ##
+### Functionality ###
+Returns information about an user
 ### Parameters ###
 * userM - IGuildUser (Optional)
 
 ## `$google <search> ` ##
+### Functionality ###
+"Googles" a sentence
 ### Parameters ###
 * search - String
 
 ## `$color <color> ` ##
+### Functionality ###
+Returns a color information
 ### Parameters ###
 * color - String
 
 ## `$hastebin <str> ` ##
+### Functionality ###
+Send a text to hastebin
 ### Parameters ###
 * str - String
 
 ## `$ign <gameName> ` ##
+### Functionality ###
+Returns a IGN review about a game
 ### Parameters ###
 * gameName - String
 
 ## `$togethertube ` ##
+### Functionality ###
+A service to watch youtube together with your friends
 
 ## `$myperms ` ##
+### Functionality ###
+Returns all your perms
 
-## `$roles <target> [page] ` ##
+## `$roles [target] [page] ` ##
+### Functionality ###
+Returns all your roles
 ### Parameters ###
-* target - IGuildUser
-* page - Int32 (Optional)
-
-## `$roles [page] ` ##
-### Parameters ###
+* target - IGuildUser (Optional)
 * page - Int32 (Optional)
 
 ## `$emojis <emojis> ` ##
+### Functionality ###
+Returns emojis information
 ### Parameters ###
 * emojis - String
 
 ## `$listguilds [page] ` ##
+### Functionality ###
+List all the guilds that Axis is in
 ### Parameters ###
 * page - Int32 (Optional)
 
-# Eval -  #
+# Eval - Eval module (Owner only) #
 
 ## `$eval <toExecute> ` ##
+### Functionality ###
+Evaluate a code
 ### Parameters ###
 * toExecute - String
 
-# Music -  #
+# Music - Music module (Buggy) (Owner only) #
 
 ## `$play <path> ` ##
+### Functionality ###
+Play a music
 ### Parameters ###
 * path - String
 
 ## `$mdc ` ##
+### Functionality ###
+Disconnect a bot from the channel
 
-# Owner -  #
+# Owner - Owner module #
 
 ## `$shutdown ` ##
+### Functionality ###
+Shutdown Axis
 
 ## `$restart ` ##
+### Functionality ###
+Restart Axis
 
-## Owner set -  ##
+## Owner set - Set Axis things... 🤔 ##
 
 ## `$set nickname [newNickname] ` ##
+### Functionality ###
+Set Axis nickname
 ### Parameters ###
 * newNickname - String (Optional)
 
-## Owner blacklist -  ##
+## Owner blacklist - Blacklist Module ##
 
 ## `$blacklist add <userMen> ` ##
+### Functionality ###
+Add an user to the blacklist
 ### Parameters ###
 * userMen - IUser
 
 ## `$blacklist remove <userMen> ` ##
+### Functionality ###
+Remove an user from the blacklist
 ### Parameters ###
 * userMen - IUser
 
 ## `$blacklist list ` ##
+### Functionality ###
+List all the users that are in the blacklist
 
-# OwnerWIP -  #
+# OwnerWIP - Commands in WIP that can only be used by my owner #
 
-## `$test ` ##
+## `$updatedocs ` ##
+### Functionality ###
+Update these docs
 
 ## `$gendocs ` ##
 ### Functionality ###
 Generates these docs
 
 ## `$setcoin <amount> [user] ` ##
+### Functionality ###
+Set the user's coins.
 ### Parameters ###
 * amount - Int64
 * user - IUser (Optional)
 
 ## `$send <where> [msg] ` ##
+### Functionality ###
+Send a message to a channel or user
 ### Parameters ###
 * where - String
 * msg - String (Optional)
 
 ## `$announce <message> ` ##
+### Functionality ###
+Send a message to all guilds
 ### Parameters ###
 * message - String
 
 ## `$delwarn <User> <Id> ` ##
+### Functionality ###
+Delete a warn
 ### Parameters ###
 * User - IUser
 * Id - Int32
 
 ## `$warn <User> <Reason> ` ##
+### Functionality ###
+Warn an user
 ### Parameters ###
 * User - IUser
 * Reason - String
 
 ## `$listwarn <User> ` ##
+### Functionality ###
+List all the warns of an user
 ### Parameters ###
 * User - IUser
 
 ## `$resetperms ` ##
+### Functionality ###
+Reset all the perms, from all the users
 
-# Custom -  #
+# Custom - Custom commands #
 
 ## `$create <name> [description] ` ##
 ### Functionality ###
@@ -358,7 +479,7 @@ Get a list of all custom commands on this server.
 ### Parameters ###
 * page - Int32 (Optional)
 
-# Guild -  #
+# Guild - Guild Commands #
 
 ## `$ban <user> [msg] ` ##
 ### Functionality ###
