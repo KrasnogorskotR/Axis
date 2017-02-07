@@ -328,12 +328,6 @@ What...
 
 ---
 
-## `$help <command> ` ##
-### Parameters ###
-* command - String
-
----
-
 # Jokes - Jokes module #
 
 ## `$yomama ` ##
@@ -490,17 +484,23 @@ Evaluate a code
 
 # Music - Music module (Buggy) (Owner only) #
 
-## `$play <path> ` ##
+## `$join ` ##
 ### Functionality ###
-Play a music
-### Parameters ###
-* path - String
+Joins to the channel
 
 ---
 
-## `$mdc ` ##
+## `$leave ` ##
 ### Functionality ###
 Disconnect a bot from the channel
+
+---
+
+## `$play <song> ` ##
+### Functionality ###
+Plays a song
+### Parameters ###
+* song - String
 
 ---
 
