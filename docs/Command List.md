@@ -94,6 +94,13 @@ Returns random WikiHow steps
 
 ---
 
+## `$love <nameone> <nametwo> ` ##
+### Parameters ###
+* nameone - String
+* nametwo - String
+
+---
+
 ## `$love <userone> <usertwo> ` ##
 ### Parameters ###
 * userone - IUser
@@ -553,6 +560,12 @@ List all the users that are in the blacklist
 ---
 
 # OwnerWIP - Commands in WIP that can only be used by my owner #
+
+## `$test ` ##
+### Functionality ###
+Some testing inidncndidsfmdsf
+
+---
 
 ## `$updatedocs ` ##
 ### Functionality ###
