@@ -561,9 +561,11 @@ List all the users that are in the blacklist
 
 # OwnerWIP - Commands in WIP that can only be used by my owner #
 
-## `$test ` ##
+## `$test <keywords> ` ##
 ### Functionality ###
 Some testing inidncndidsfmdsf
+### Parameters ###
+* keywords - String
 
 ---
 
