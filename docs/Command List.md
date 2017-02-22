@@ -20,6 +20,12 @@ Get this servers's favorite commands.
 
 # Public - Public module #
 
+## `$help ` ##
+### Functionality ###
+What...
+
+---
+
 ## `$info ` ##
 ### Functionality ###
 Info about Axis
@@ -176,14 +182,6 @@ Generate a doge!
 
 ---
 
-## `$char <str> ` ##
-### Functionality ###
-Get the char info.
-### Parameters ###
-* str - String
-
----
-
 ## `$pat [user] ` ##
 ### Functionality ###
 Pat someone.
@@ -216,19 +214,12 @@ Transforms your input into emoji
 
 ---
 
-## Fun pb - PhoneBook module ##
-
-## `$pb call <id> ` ##
+## `$linux <guhnoo> <loonix> ` ##
 ### Functionality ###
-Call a channel
+https://www.youtube.com/watch?v=QlD9UBTcSW4
 ### Parameters ###
-* id - UInt64
-
----
-
-## `$pb disconnect | $pb dc ` ##
-### Functionality ###
-Disconnect from the call
+* guhnoo - String
+* loonix - String
 
 ---
 
@@ -318,23 +309,6 @@ Rocket, Paperclip and Scissors
 
 ---
 
-## `$linux <guhnoo> <loonix> ` ##
-### Functionality ###
-https://www.youtube.com/watch?v=QlD9UBTcSW4
-### Parameters ###
-* guhnoo - String
-* loonix - String
-
----
-
-# Help -  #
-
-## `$help ` ##
-### Functionality ###
-What...
-
----
-
 # Jokes - Jokes module #
 
 ## `$yomama ` ##
@@ -418,14 +392,6 @@ Returns information about an user
 
 ---
 
-## `$color <color> ` ##
-### Functionality ###
-Returns a color information
-### Parameters ###
-* color - String
-
----
-
 ## `$hastebin <str> ` ##
 ### Functionality ###
 Send a text to hastebin
@@ -476,16 +442,6 @@ Returns emojis information
 List all the guilds that Axis is in
 ### Parameters ###
 * page - Int32 (Optional)
-
----
-
-# Eval - Eval module (Owner only) #
-
-## `$eval <toExecute> ` ##
-### Functionality ###
-Evaluate a code
-### Parameters ###
-* toExecute - String
 
 ---
 
