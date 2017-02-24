@@ -23,6 +23,8 @@ Get this servers's favorite commands.
 ## `$help ` ##
 ### Functionality ###
 What...
+### Example ###
+`help help`
 
 ---
 
@@ -600,6 +602,8 @@ Reset all the perms, from all the users
 ## `$create <name> [description] ` ##
 ### Functionality ###
 Create a new custom command.
+### Example ###
+`create example This is an example.`
 ### Parameters ###
 * name - String
 * description - String (Optional)
@@ -609,6 +613,8 @@ Create a new custom command.
 ## `$commands | $cmds [page] ` ##
 ### Functionality ###
 Get a list of all custom commands on this server.
+### Example ###
+`commands`
 ### Parameters ###
 * page - Int32 (Optional)
 
@@ -619,6 +625,8 @@ Get a list of all custom commands on this server.
 ## `$ban <user> [msg] ` ##
 ### Functionality ###
 Bans the user from the guild.
+### Example ###
+`ban @b1nzy#1337`
 ### Parameters ###
 * user - IGuildUser
 * msg - String (Optional)
@@ -628,6 +636,8 @@ Bans the user from the guild.
 ## `$kick <userM> ` ##
 ### Functionality ###
 Kicks the user from the guild.
+### Example ###
+`kick @b1nzy#1337`
 ### Parameters ###
 * userM - IUser
 
