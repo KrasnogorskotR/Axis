@@ -68,6 +68,14 @@ Lookup an IP
 
 # Fun - Fun module #
 
+## `$needsmorejpeg | $needsmorejpg [user] ` ##
+### Functionality ###
+Makes an user avatar looks pretty crappy
+### Parameters ###
+* user - IUser (Optional)
+
+---
+
 ## `$cat ` ##
 ### Functionality ###
 Sends a random cat image
