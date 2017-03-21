@@ -76,6 +76,14 @@ Makes an user avatar looks pretty crappy
 
 ---
 
+## `$needsmorejpeg | $needsmorejpg <link> ` ##
+### Functionality ###
+Makes an user avatar looks pretty crappy
+### Parameters ###
+* link - String
+
+---
+
 ## `$cat ` ##
 ### Functionality ###
 Sends a random cat image
