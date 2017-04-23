@@ -68,7 +68,7 @@ Lookup an IP
 
 # Fun - Fun module #
 
-## `$needsmorejpeg | $needsmorejpg [user] ` ##
+## `$needsmorejpeg | $nedsmorejpg [user] ` ##
 ### Functionality ###
 Makes an user avatar looks pretty crappy
 ### Parameters ###
