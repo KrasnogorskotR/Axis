@@ -68,7 +68,7 @@ Lookup an IP
 
 # Fun - Fun module #
 
-## `$needsmorejpeg | $nedsmorejpg [user] ` ##
+## `$needsmorejpeg | $needsmorejpg [user] ` ##
 ### Functionality ###
 Makes an user avatar looks pretty crappy
 ### Parameters ###
@@ -467,21 +467,57 @@ List all the guilds that Axis is in
 
 ## `$join ` ##
 ### Functionality ###
-Joins to the channel
+Joines the channel of the User
+
+---
+
+## `$add <url> ` ##
+### Functionality ###
+Adds selected song to Queue
+### Parameters ###
+* url - URL to addString
+
+---
+
+## `$skip ` ##
+### Functionality ###
+Skip current song in queue
+
+---
+
+## `$clear ` ##
+### Functionality ###
+Clears the entire music queue, requires Manage Channels permission though
+
+---
+
+## `$list | $queue ` ##
+### Functionality ###
+Shows a list of all songs in the Queue
+
+---
+
+## `$np ` ##
+### Functionality ###
+Tells you which song is currently playing
+
+---
+
+## `$play ` ##
+### Functionality ###
+Plays the qurrent queue
 
 ---
 
 ## `$leave ` ##
 ### Functionality ###
-Disconnect a bot from the channel
+Leaves the voice channel in which the User is in.
 
 ---
 
-## `$play <song> ` ##
+## `$stop ` ##
 ### Functionality ###
-Plays a song
-### Parameters ###
-* song - String
+Stops the current Audioplayer
 
 ---
 
@@ -540,6 +576,20 @@ List all the users that are in the blacklist
 Some testing inidncndidsfmdsf
 ### Parameters ###
 * user - IUser (Optional)
+
+---
+
+## `$test1 [cmdName] ` ##
+### Functionality ###
+Test number 1
+### Parameters ###
+* cmdName - Command of which the help should be displayedString (Optional)
+
+---
+
+## `$test2 ` ##
+### Functionality ###
+Test number 2
 
 ---
 
