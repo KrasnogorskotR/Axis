@@ -341,6 +341,40 @@ Returns a rand joke
 
 ---
 
+# Music - Music module (Buggy) #
+
+## `$play <url> ` ##
+### Functionality ###
+Play selected song to Queue
+### Parameters ###
+* url - URL to add/Name to searchString
+
+---
+
+## `$skip ` ##
+### Functionality ###
+Skip current song in queue
+
+---
+
+## `$list | $queue ` ##
+### Functionality ###
+Shows a list of all songs in the Queue
+
+---
+
+## `$np ` ##
+### Functionality ###
+Tells you which song is currently playing
+
+---
+
+## `$stop ` ##
+### Functionality ###
+Stops the current Audioplayer
+
+---
+
 # Search - Search module #
 
 ## `$gif <keywords> ` ##
@@ -460,64 +494,6 @@ Returns emojis information
 List all the guilds that Axis is in
 ### Parameters ###
 * page - Int32 (Optional)
-
----
-
-# Music - Music module (Buggy) (Owner only) #
-
-## `$join ` ##
-### Functionality ###
-Joines the channel of the User
-
----
-
-## `$add <url> ` ##
-### Functionality ###
-Adds selected song to Queue
-### Parameters ###
-* url - URL to addString
-
----
-
-## `$skip ` ##
-### Functionality ###
-Skip current song in queue
-
----
-
-## `$clear ` ##
-### Functionality ###
-Clears the entire music queue, requires Manage Channels permission though
-
----
-
-## `$list | $queue ` ##
-### Functionality ###
-Shows a list of all songs in the Queue
-
----
-
-## `$np ` ##
-### Functionality ###
-Tells you which song is currently playing
-
----
-
-## `$play ` ##
-### Functionality ###
-Plays the qurrent queue
-
----
-
-## `$leave ` ##
-### Functionality ###
-Leaves the voice channel in which the User is in.
-
----
-
-## `$stop ` ##
-### Functionality ###
-Stops the current Audioplayer
 
 ---
 
